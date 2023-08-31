@@ -91,58 +91,6 @@ export default function Hero() {
                         </div>
                     </div>
                 ))}
-
-
-
-
-                {/* 
-                {
-                    specData.map((data, i) => {
-                        return <div className="row" >
-                            <div className="col" key={i}>
-                                <h4>{data.title}</h4>
-                                <div className='d-flex flex-column justify-content-around' style={{ margin: "0 200px" }} >
-                                    <div >
-                                        <h6 style={{ fontWeight: "500" }}>{data.content[0].label}</h6>
-                                        <p className='text-end'>{data.content[0].value}</p>
-                                    </div>
-                                    <div >
-                                        <h6 style={{ fontWeight: "500" }}>{data.content[1].label}</h6>
-                                        <p className='text-end'>{data.content[1].value}</p>
-                                    </div>
-                                    <div >
-                                        <h6 style={{ fontWeight: "500" }}>{data.content[2].label}</h6>
-                                        <p className='text-end'>{data.content[2].value}</p>
-                                    </div>
-                                    <div >
-                                        <h6 style={{ fontWeight: "500" }}>{data.content[3].label}</h6>
-                                        <p className='text-end'>{data.content[3].value}</p>
-                                    </div>
-                                    <div >
-                                        <h6 style={{ fontWeight: "500" }}>{data.content[4].label}</h6>
-                                        <p className='text-end'>{data.content[4].value}</p>
-                                    </div>
-                                    <div >
-                                        <h6 style={{ fontWeight: "500" }}>{data.content[5].label}</h6>
-                                        <p className='text-end'>{data.content[5].value}</p>
-                                    </div>
-                                    <div >
-                                        <h6 style={{ fontWeight: "500" }}>{data.content[6].label}</h6>
-                                        <p className='text-end'>{data.content[6].value}</p>
-                                    </div>
-                                    <div >
-                                        <h6 style={{ fontWeight: "500" }}>{data.content[7].label}</h6>
-                                        <p className='text-end'>{data.content[7].value}</p>
-                                    </div>
-                                    
-
-                                </div>
-
-                            </div>
-                        </div>
-                    })
-                } */}
-
             </div>
         </>
     )
